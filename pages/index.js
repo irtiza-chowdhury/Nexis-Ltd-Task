@@ -154,7 +154,7 @@ export default function Home() {
                 </div>
                 <div>
                   <div className="flex justify-center pt-[60px] pb-[30px] md:pb-0 text-sm font-medium text-gray">
-                    Don't have an account?
+                    Don&apos;t have an account?
                     <Link
                       className="uppercase text-md pl-[10px] text-blue underline font-semibold"
                       href="./signUp"

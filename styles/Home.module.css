@@ -1,8 +1,8 @@
 .container {
-  padding: 0 2rem;
+  padding: 20px;
 }
 
-.main {
+/* .main {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -83,8 +83,8 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
-}
-
+} */
+/* 
 .card:hover,
 .card:focus,
 .card:active {
@@ -113,9 +113,9 @@
     width: 100%;
     flex-direction: column;
   }
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .card,
   .footer {
     border-color: #222;
@@ -126,4 +126,4 @@
   .logo img {
     filter: invert(1);
   }
-}
+} */

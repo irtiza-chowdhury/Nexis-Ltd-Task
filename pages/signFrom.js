@@ -169,14 +169,14 @@ import {
               >
                 {step > 0 ? (
                   <div>
-                    <button
-                      className="text-gray bg-white hover:text-black hover:bg-white inter secondary-button"
+                    <Button
+                      className="text-gray bg-white hover:text-black hover:bg-white inter secondary-button back-button"
                       disabled={isSubmitting}
                       variant="contained"
                       onClick={() => setStep((s) => s - 1)}
                     >
                       Back
-                    </button>
+                    </Button>
                   </div>
                 ) : null}
                 <div>

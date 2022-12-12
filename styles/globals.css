@@ -66,3 +66,13 @@ input:focus-visible{
 .roboto{
   font-family: 'Roboto', sans-serif;
 }
+
+.back-button{
+  background-color: white;
+  color: #7E7E7E;
+  box-shadow: none;
+}
+.back-button:hover{
+  color: #242424;
+  box-shadow: none;
+}

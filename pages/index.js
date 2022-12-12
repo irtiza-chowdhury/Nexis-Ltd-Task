@@ -100,9 +100,8 @@ export default function Home() {
                     `https://test.nexisltd.com/login`,
                     requestParam
                   );
-                  console.log(response);
-                  if (response.status === 200) {
-                    console.log("User created successfully");
+      
+                  if (response.status === 200) {                   
                     router.push("/attendanceTable");
                   } else {
                     console.log("Some error occured");

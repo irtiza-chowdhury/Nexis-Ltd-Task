@@ -47,9 +47,9 @@ import {
                     `https://test.nexisltd.com/signup`,
                     requestParam
                   );
-                  console.log(response);
+                
                   if (response.status === 200) {
-                    console.log("User created successfully");
+              
                     router.push("/");
                   } else {
                     console.log("Some error occured");
@@ -137,8 +137,6 @@ import {
     const [step, setStep] = useState(0);
     const currentChild = childrenArray[step];
     const [completed, setCompleted] = useState(false);
-  
-    console.log("step", step);
   
     function isLastStep() {
       return step === childrenArray.length - 1;

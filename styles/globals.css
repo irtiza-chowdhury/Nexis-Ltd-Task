@@ -68,11 +68,11 @@ input:focus-visible{
 }
 
 .back-button{
-  background-color: white;
-  color: #7E7E7E;
-  box-shadow: none;
+  background-color: white !important;
+  color: #7E7E7E !important;
+  box-shadow: none !important;
 }
 .back-button:hover{
-  color: #242424;
-  box-shadow: none;
+  color: #242424 !important;
+  box-shadow: none !important;
 }
